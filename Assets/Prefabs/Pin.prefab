@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4174161050205594463}
   - component: {fileID: 4174161050205594462}
   - component: {fileID: 4174161050205594461}
-  - component: {fileID: 4174161050205594458}
   m_Layer: 5
   m_Name: Pin
   m_TagString: Untagged
@@ -150,35 +149,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pinText: {fileID: 4174161050205594462}
-  currentPinValue:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
---- !u!114 &4174161050205594458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4174161050205594448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7cc2824c15fe4034876ba42e3692aef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 8f5aa6879332d4b64b6915abde22a914, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4174161050205594461}
-        m_TargetAssemblyTypeName: Pin, Assembly-CSharp
-        m_MethodName: SetNewValue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  currentValue: 0
